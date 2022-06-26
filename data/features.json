@@ -8,7 +8,9 @@
     "title": "Fast",
     "description": "Light weight and fast loading speed.",
     "icon": "icon-lightbulb_outline"
-  },
+  }
+  
+  ,
   {
     "title": "Github",
     "description": "Please fork the Github repository and contribute to this theme!",
