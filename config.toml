@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "/"
 title = "Thrive In Vitality"
 author = "username"
 languageCode = "en"
@@ -7,8 +7,7 @@ enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
 
-# Please enable this feature if the site is available in Japanese, Chinese or Korean.
-#hasCJKLanguage = true
+
 
 # If you're using Google Analytics, you can enable this feature.
 #googleAnalytics = "UA-12345678-1"
@@ -51,7 +50,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "services"
     name = "Services"
-    url = "/products/"
+    url = "/services/"
     weight = 1
 
   [[menu.main]]
