@@ -71,6 +71,13 @@ enableRobotsTXT = true
     url = "/contact/"
     weight = 4
 
+  [[menu.main]]
+    identifier = "thankyou"
+    # name = "Thank You"
+    url = "/thankyou/"
+    weight = 5
+  
+
   # Footer Menu
   [[menu.footer]]
     name = "Homepage"

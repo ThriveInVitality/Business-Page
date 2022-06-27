@@ -1,0 +1,6 @@
+---
+title: 'Thank You'
+---
+
+{{< thankyou >}}
+
