@@ -1,12 +1,25 @@
 [
   {
-    "title": "Search",
-    "description": "No need to serach further, I can help you out",
-    "icon": "icon-desktop_windows"
+    "title": "People",
+    "description": "People you can trust with your holistic needs",
+    "icon": "icon-person"
   },
   {
     "title": "Ideas",
     "description": "Ideas and thoughts are part of a peaceful mind",
     "icon": "icon-lightbulb_outline"
+  },
+  {
+    "title": "Time",
+    "description": "Do everything on your own time",
+    "icon": "icon-access_time"
+  },
+
+
+  {
+    "title": "Look",
+    "description": "Quick fixes you see can cause more harm in the long run",
+    "icon": "icon-remove_red_eye"
   }
+  
 ]

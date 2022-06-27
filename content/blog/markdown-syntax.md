@@ -2,15 +2,12 @@
 author = "Amy Moyer"
 title = "Hear about my most recent clients experience"
 date = "2022-06-25"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+description = "Inital post for website that is now live"
 tags = [
-    "markdown",
-    "css",
-    "html",
+    "Web Development"
 ]
 categories = [
-    "Experiences",
-    "progress",
+    "Site Maintanence"
 ]
 +++
 
