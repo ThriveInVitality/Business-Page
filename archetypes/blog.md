@@ -1,8 +1,8 @@
 ---
 title: ""
 date: {{ .Date }}
-image: "img/default.jpg"
+image: "img/default.svg"
 draft: true
 weight: 100
-author: ""
+author: "Amy Moyer"
 ---
