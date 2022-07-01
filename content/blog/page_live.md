@@ -1,16 +1,14 @@
 ---
-title: "Page is now live"
-date: "2022-06-27T00:03:42-04:00"
-image: "img/default.jpg"
 draft: false
-description : "Initial post for deployed website"
-author: "Luis Hernandez"
-tags : [
-    "Web Development"
-]
-categories : [
-    "Site Maintanence"
-]
+author: Luis Hernandez
+title: Page is now live
+date: 2022-06-27T00:03:42-04:00
+image: /img/uploads/live.png
+tags:
+  - Web Development
+categories:
+  - Site Maintanence
+description: Initial post for deployed website
 ---
 
 
