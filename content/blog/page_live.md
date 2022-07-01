@@ -1,7 +1,7 @@
 ---
 title: "Page is now live"
 date: "2022-06-27T00:03:42-04:00"
-image: "img/default.jpg"
+image: "img/default.svg"
 draft: false
 description : "Initial post for deployed website"
 author: "Luis Hernandez"

@@ -20,4 +20,4 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Catergories", name: "categories", widget: "list"}
+      - {label: "Categories", name: "categories", widget: "list"}
