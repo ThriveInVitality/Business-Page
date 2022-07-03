@@ -3,20 +3,11 @@ aliases:
   - services
   - service
   - offers
-title: INFRARED SAUNA THERAPY
+title: Services
 author: Amy Moyer
-description: "The far-infrared sauna therapy has many benefits and can
-  incorporate Chromotherapy for a variety of benefits. This is a great way to
-  jump start the detox process and increase the effectiveness of the Ionic Oasis
-  Detox Foot Bath. "
-date: 2022-07-02T05:59:01.651Z
+description: " "
+date: 2022-07-03T01:33:43.015Z
 tags:
   - index
 ---
-<!--StartFragment-->
-
-The Infrared Sauna does not claim to cure or treat any disease or injury.  The body’s organs will naturally function better when there are less toxins in the body.  Regain your health today.                                                     $45
-
-
-
-<!--EndFragment-->
+` `
