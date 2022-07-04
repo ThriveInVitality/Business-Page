@@ -1,7 +1,7 @@
 ---
 draft: false
 featured: true
-title: "Initial consultation "
+title: INITIAL CONSULTATION
 description: Discuss your health and wellness concerns and the packages that may
   best serve your needs. ($50 of this consultation can then be used on the
   purchase of a 6 month plan that expires one month after the
