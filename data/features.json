@@ -1,8 +1,9 @@
 [
   {
     "title": "People",
-    "description": "People you can trust with your holistic needs",
-    "icon": "icon-person"
+    "description": "Meet Your Certified Health Coach",
+    "icon": "icon-person",
+    "link":"/about-coach"
   },
   {
     "title": "Ideas",
@@ -17,9 +18,10 @@
 
 
   {
-    "title": "Look",
-    "description": "Quick fixes you see can cause more harm in the long run",
-    "icon": "icon-remove_red_eye"
+    "title": "Facebook",
+    "description": "Check out our page",
+    "icon": "icon-facebook",
+    "link": "https://www.facebook.com/thriveinvitality/?modal=admin_todo_tour&notif_id=1655526331187728&notif_t=page_invite&ref=notif"
   }
   
 ]

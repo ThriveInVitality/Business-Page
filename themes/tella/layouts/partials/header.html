@@ -1,10 +1,11 @@
 <!-- cms data -->
 <head>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <link rel="stylesheet" href="/static/css/custom.css">
 </head>
 <header>
     <div id="overlay">
-        <ul class="text-center list-none text-white text-3xl">
+        <ul class="text-center list-none text-white text-3xl" margin-bottom="0">
             {{ range .Site.Menus.main }}
             <li class="p-2">
                 <a href="{{ .URL }}">
@@ -14,10 +15,13 @@
             {{ end }}
         </ul>
     </div>
-    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
-        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8" >
+        <!-- <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6" >
             <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}"
-                    class="{{ .Site.Params.logo.size }} mr-3" src="{{ .Site.Params.logo.main | relURL }}"></a>
+                    class="{{ .Site.Params.logo.size }} mr-3" src="{{ .Site.Params.logo.main | relURL }}" ></a> -->
+        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-1" >
+            <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}"
+                    class="main-logo-page" src="{{ .Site.Params.logo.main | relURL }}" ></a>
         </div>
         <div class="block lg:hidden">
             <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">

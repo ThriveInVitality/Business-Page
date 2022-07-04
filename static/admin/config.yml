@@ -5,9 +5,9 @@ backend:
 media_folder: "static/img/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/img/uploads"
 
-# for local admin testing
+## for local admin testing
 # npx netlify-cms-proxy-server
-# local_backend: true
+local_backend: true
 
 
 
@@ -54,6 +54,13 @@ collections:
       - file: "content/contact.md"
         label: "Contact page"
         name: "Contact"
+        fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Body", name: "body", widget: "text"}
+
+      - file: "content/health-coach.md"
+        label: "Meet Amy"
+        name: "Amy Page"
         fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Body", name: "body", widget: "text"}

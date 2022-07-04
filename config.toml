@@ -20,7 +20,7 @@ enableRobotsTXT = true
   mainSections = ['blog']
 
   [params.logo]
-    main = "./img/logo/logo.svg"
+    main = "./img/logo/logo.png"
     alt = "TIV Logo"
 
     # The size parameter is the class name of tailwindcss
@@ -75,6 +75,12 @@ enableRobotsTXT = true
     identifier = "thankyou"
     # name = "Thank You"
     url = "/thankyou/"
+    weight = 5
+  
+  [[menu.main]]
+    identifier = "about-coach"
+    # name = "Meet Amy"
+    url = "/health-coach/"
     weight = 5
   
 

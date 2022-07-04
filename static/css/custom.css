@@ -2,3 +2,18 @@
  This CSS file is used to override the existing styles of the theme.
  You can change the article headings, fonts, colors, etc.
 */
+
+
+.main-logo-page{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center ;
+    object-fit: cover;
+    
+    
+
+    /* flex items-center flex-shrink-0 text-xl text-grey-900 mr-6 */
+    
+}
