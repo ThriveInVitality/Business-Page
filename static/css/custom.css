@@ -81,14 +81,14 @@ body {
   
   /* Thread in vitality homepage heading */
   
-  .cup h1{
+  .h1-home h1{
     font-size: 5em;
     text-align: center;
     color: rgb(38, 223, 243);
   }
-  .cup {
+  .h1-home {
     width: 100%;
-    height: 20%;
+    height: 100%;
     border-radius: 15px;
     background: url(https://image.ibb.co/fmHm66/wave.png);
     background-position: 0px 350px;
