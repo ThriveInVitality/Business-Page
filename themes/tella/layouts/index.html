@@ -21,13 +21,19 @@
 </head>
 
 <body>
+    
     {{- partial "alert.html" . -}}
     {{- partial "header.html" . -}}
     <div class="scroll-top rounded-full">
         <span class="icon-keyboard_arrow_up text-2xl"></span>
     </div>
+    <div class="cup"> 
+        <h1>Thrive In Vitality</h1>
+    </div>
+    
     {{- partial "slide.html" . -}}
     {{- partial "strip.html" . -}}
+    
     <div class="mx-auto my-10 max-w-6xl">
         <h2 class="text-4xl ml-2">Blog</h2>
         {{- partial "recent.html" . -}}
@@ -51,6 +57,7 @@
             },
         });
     </script>
+    
 </body>
 
 </html>

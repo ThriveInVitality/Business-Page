@@ -45,6 +45,7 @@ html {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   
+  
 }
 
 /*
@@ -57,6 +58,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  background-color: rgb(196, 249, 198);
 }
 
 /*
@@ -64,6 +66,72 @@ body {
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
 */
+
+
+/* contact form styling
+ */
+.contact-form{
+  background-color: rgb(16, 15, 15);
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: .1em;
+  margin-right: 1em;
+  
+}
+.contact-form input{
+  background-color: rgb(121, 121, 125);
+  border-radius: 6px;
+  color: white;
+  margin-top: 1em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/* button animation */
+.contact-form button{
+  display: block;
+  border: 1px solid black; 
+  border-radius: 15%;
+  background-color: rgb(4, 6, 159);
+  color: white;
+  margin-left: 50%;
+  margin-right: 50%;
+
+}
+
+/* button animation end */
+
+
+
+/* Thread in vitality homepage heading */
+
+.cup h1{
+  font-size: 5em;
+  text-align: center;
+  color: rgb(5, 12, 5);
+}
+.cup {
+  width: 100%;
+  height: 20%;
+  border-radius: 15px;
+  background: url(https://image.ibb.co/fmHm66/wave.png);
+  background-position: 0px 350px;
+  background-repeat: repeat-x;
+  /* animation: filling 10s ease-in infinite; */
+  animation: filling ease-in-out infinite;
+  animation-duration: 5s;
+  
+
+}
+
+
+@keyframes filling {
+  50% {background-position: 3000px 0px;}
+  100% {background-position: 6000px 350px;}
+}
+/* home page headline end */
+
+
 
 hr {
   height: 0;

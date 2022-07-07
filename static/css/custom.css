@@ -15,5 +15,10 @@
     
 
     /* flex items-center flex-shrink-0 text-xl text-grey-900 mr-6 */
-    
+
 }
+
+body.contact-form{
+    
+        background-color: pink;
+    }
