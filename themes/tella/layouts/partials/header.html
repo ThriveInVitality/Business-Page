@@ -1,13 +1,13 @@
-<!-- cms data -->
 <head>
+    <!-- cms data -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <link rel="stylesheet" href="/static/css/custom.css">
+    
 </head>
 <header>
     <div id="overlay">
-        <ul class="text-center list-none text-white text-3xl" margin-bottom="0">
+        <ul class="text-center list-none text-3xl" margin-bottom="0">
             {{ range .Site.Menus.main }}
-            <li class="p-2">
+            <li id="nav-popup">
                 <a href="{{ .URL }}">
                     <span>{{ .Name }}</span>
                 </a>
@@ -35,8 +35,12 @@
             </div>
             <div class="text-lg">
                 {{ range .Site.Menus.main }}
-                <a href="{{ .URL }}"
+                <!-- <a href="{{ .URL }}"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    {{ .Name }}
+                </a> -->
+                <a href="{{ .URL }}"
+                    id="nav-bar">
                     {{ .Name }}
                 </a>
                 {{ end }}

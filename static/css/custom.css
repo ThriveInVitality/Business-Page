@@ -1,19 +1,123 @@
+
+body {
+  background-color: rgba(189, 232, 255, 0.884);
+}
+#nav-popup{
+  color: rgb(85, 246, 244);
+}
+
+#nav-popup:hover{
+  color: rgb(200, 251, 186);
+}
+#nav-bar{
+  color:rgb(38, 223, 243);
+  padding-left: 1em;
+  
+  /* duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8 if you want to add on html ass class string */
+}
+
+/* .slide-text{
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.1);
+
+} */
+#nav-bar:hover{
+  color:rgb(196, 249, 198);
+  
+}
 .main-logo-page{
     width: 90px;
     height: 90px;
     display: flex;
     flex-shrink: 0;
     justify-content: center ;
+    border-radius: 50%;
     /* object-fit: cover; */
 
     /* 
  This CSS file is used to override the existing styles of the theme.
  You can change the article headings, fonts, colors, etc.
 */
-    
-    
-
-    /* flex items-center flex-shrink-0 text-xl text-grey-900 mr-6 */
 
 }
+
+/* contact form styling
+ */
+ .contact-form{
+  background-color: rgb(16, 15, 15);
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: .1em;
+  margin-right: 1em;
+  
+}
+.contact-form input{
+  background-color: rgb(121, 121, 125);
+  border-radius: 6px;
+  color: white;
+  margin-top: 1em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.contact-form button{
+    display: block;
+    border: 1px solid black; 
+    border-radius: 15%;
+    background-color: rgb(4, 6, 159);
+    color: white;
+    margin-left: 50%;
+    margin-right: 50%;
+  
+  }
+  
+  /* contact form end styling */
+  
+  
+  
+  /* Thread in vitality homepage heading */
+  
+  .cup h1{
+    font-size: 5em;
+    text-align: center;
+    color: rgb(38, 223, 243);
+  }
+  .cup {
+    width: 100%;
+    height: 20%;
+    border-radius: 15px;
+    background: url(https://image.ibb.co/fmHm66/wave.png);
+    background-position: 0px 350px;
+    background-repeat: repeat-x;
+    /* animation: filling 10s ease-in infinite; */
+
+    /* animation: filling ease-in-out infinite;
+    animation-duration: 5s; */
+    
+  
+  }
+  
+  
+  @keyframes filling {
+    50% {background-position: 3000px 0px;}
+    100% {background-position: 6000px 350px;}
+  }
+  /* home page headline end */
+
+
+  /* background video */
+
+  .video-bg{
+    position: absolute;
+    /* right: 0; */
+    top: 0;
+    min-width: auto;
+    min-height: 85%;
+    z-index: -1;
+  }
+
 
