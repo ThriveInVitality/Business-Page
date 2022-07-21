@@ -89,6 +89,12 @@ enableRobotsTXT = true
     url = "/health-coach/"
     weight = 7
   
+  [[menu.main]]
+    identifier = "who-benefits"
+    # name = "Who Benefits"
+    url = "/who-benefits/"
+    weight = 8
+  
 
   # Footer Menu
   [[menu.footer]]
