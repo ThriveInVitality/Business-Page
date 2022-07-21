@@ -1,21 +1,20 @@
 [
   {
-    "title": "People",
-    "description": "Meet Your Certified Health Coach",
+    "title": "Meet Health Coach",
+    "description": "Amy Marie",
     "icon": "icon-person",
     "link":"/about-coach"
   },
   {
-    "title": "Ideas",
-    "description": "Ideas and thoughts are part of a peaceful mind",
-    "icon": "icon-lightbulb_outline"
+    "title": "What To Expect",
+    "description": "",
+    "icon": "icon-remove_red_eye"
   },
   {
-    "title": "Time",
-    "description": "Do everything on your own time",
+    "title": "Who Benefits?",
+    "description": "Who does not benefit?",
     "icon": "icon-access_time"
   },
-
 
   {
     "title": "Facebook",
