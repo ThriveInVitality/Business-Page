@@ -4,7 +4,7 @@ author: Amy Moyer
 date: 2022-07-21T07:21:47.899Z
 image: /img/uploads/morning-sun-through-the-trees.jpg
 tags:
-  - "#healthcoaching"
+  - "healthcoaching"
 categories:
   - VirtualHealthCoaching
 ---
