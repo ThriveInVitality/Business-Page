@@ -6,6 +6,7 @@ date: 2022-06-27T00:03:42-04:00
 image: /img/uploads/live.png
 tags:
   - Web Development
+  - website
 categories:
   - Site Maintanence
 description: Initial post for deployed website
