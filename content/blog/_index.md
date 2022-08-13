@@ -5,7 +5,7 @@ aliases:
   - blog
   - showcase
   - docs
-title: Blogs
+title: Healing from a Toxic Relationship or Divorce
 author: Amy Moyer
 date: 2022-08-13T04:42:23.781Z
 image: /img/uploads/pexels-alex-green-womancrying.jpg
