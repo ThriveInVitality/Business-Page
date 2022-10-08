@@ -1,5 +1,5 @@
 ---
-title: A Dynamic Mineral Combinations
+title: A Dynamic Mineral Combination
 date: 2022-09-14T18:39:21.291Z
 image: /img/uploads/e8532bc8-c2c9-48eb-a7ab-00161b0b58bf.jpeg
 tags:
