@@ -6,7 +6,11 @@ media_folder: "static/img/uploads" # Media files will be stored in the repo unde
 public_folder: "/img/uploads"
 
 ## for local admin testing
-# npx netlify-cms-proxy-server
+
+#run 
+## npx netlify-cms-proxy-server
+
+#uncomment 
 # local_backend: true
 
 
@@ -41,6 +45,7 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Categories", name: "categories", widget: "list"}
 
+# Removed from CMS because it is not working properly with the rich text editor
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     files:
@@ -49,19 +54,19 @@ collections:
         name: "about"
         fields:
         - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "text"}
+        - {label: "Body", name: "body", widget: "markdown"}
     
       - file: "content/contact.md"
         label: "Contact page"
         name: "Contact"
         fields:
         - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "text"}
+        - {label: "Body", name: "body", widget: "markdown"}
 
       - file: "content/health-coach.md"
         label: "Meet Amy"
         name: "Amy Page"
         fields:
         - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "text"}
+        - {label: "Body", name: "body", widget: "markdown"}
 

@@ -76,24 +76,31 @@ enableRobotsTXT = true
     name = "Contact"
     url = "/contact/"
     weight = 5
+  
+  [[menu.main]]
+    identifier = "booking"
+    name = "Booking"
+    url = "/booking/"
+    weight = 6
 
   [[menu.main]]
     identifier = "thankyou"
     # name = "Thank You"
     url = "/thankyou/"
-    weight = 6
+    weight = 7
   
   [[menu.main]]
     identifier = "about-coach"
     # name = "Meet Amy"
     url = "/health-coach/"
-    weight = 7
+    weight = 8
   
   [[menu.main]]
     identifier = "who-benefits"
     # name = "Who Benefits"
     url = "/who-benefits/"
-    weight = 8
+    weight = 9
+
   
 
   # Footer Menu
