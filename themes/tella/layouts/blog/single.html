@@ -34,7 +34,7 @@
         {{ if .Params.image }}
         <img class="my-4" src="{{ .Params.image | absURL }}">
         {{ end }}
-        <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1">{{.Content}}</div>
+        <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1" style="font-family: 'Charm'">{{.Content}}</div>
         <div class="share m-2 grid grid-cols-2 lg:grid-cols-3 gap-2">
             
             <!-- <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&t={{ .Title }}" target="_blank"
